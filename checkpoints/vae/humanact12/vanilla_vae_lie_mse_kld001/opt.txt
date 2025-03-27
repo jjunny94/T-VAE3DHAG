@@ -1,0 +1,34 @@
+------------ Options -------------
+arbitrary_len: False
+batch_size: 128
+checkpoints_dir: ./checkpoints/vae
+clip_set: ./dataset/pose_clip_full.csv
+coarse_grained: True
+dataset_type: humanact12
+decoder_hidden_layers: 2
+dim_z: 30
+eval_every: 2000
+gpu_id: 0
+hidden_size: 128
+isTrain: True
+is_continue: False
+iters: 50000
+lambda_align: 0.5
+lambda_kld: 0.001
+lambda_trajec: 0.8
+lie_enforce: False
+motion_length: 60
+name: vanilla_vae_lie_mse_kld001
+no_trajectory: False
+plot_every: 50
+posterior_hidden_layers: 1
+print_every: 20
+prior_hidden_layers: 1
+save_every: 2000
+save_latest: 50
+skip_prob: 0
+tf_ratio: 0.6
+time_counter: True
+use_geo_loss: False
+use_lie: True
+-------------- End ----------------
