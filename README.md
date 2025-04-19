@@ -1,3 +1,7 @@
+## T-VAE3DHAG
+Pytorch Implementation of '[Transformer VAE Based 3D Human Action Generation (2024)](https://eares.org/siteadmin/upload/1868EAP1224127.pdf)'
+
+
 ## Setup
 Environment Setup & Data Preparation Following [here](https://github.com/EricGuo5513/action-to-motion)
 
